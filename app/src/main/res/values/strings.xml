@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Final</string>
+    <string name="numero">Número</string>
+    <string name="agregar">Agregar Número</string>
+    <string name="errorNumero">Se requiere un valor</string>
+    <string name="seleccion">Seleccionaste: </string>
+    <string name="noSeleccion">No elegiste orden</string>
+    <string name="opcion">Seleccione el orden </string>
+    <string name="orden">Ver ordenado </string>
+    <string name="agregado">Se agregó el número </string>
+
+
+    <string-array name="Opciones">
+        <item>Mayor a Menor</item>
+        <item>Menor a Mayor</item>
+    </string-array>
 </resources>
