@@ -4,7 +4,7 @@
     <string name="agregar">Agregar Número</string>
     <string name="errorNumero">Se requiere un valor</string>
     <string name="seleccion">Seleccionaste: </string>
-    <string name="noSeleccion">No elegiste orden</string>
+    <string name="noSeleccion">No elegiste el orden</string>
     <string name="opcion">Seleccione el orden </string>
     <string name="orden">Ver ordenado </string>
     <string name="posicion">Posición </string>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final</string>
+    <string name="numero">Number</string>
+    <string name="agregar">Add Number</string>
+    <string name="errorNumero">Requires value</string>
+    <string name="seleccion">"Selected: "</string>
+    <string name="noSeleccion">You didn\'t choose the order</string>
+    <string name="opcion">Select the order</string>
+    <string name="orden">View ordered</string>
+    <string name="posicion">Position</string>
+    <string name="creador">Created by UrbanerCracker</string>
+    <string name="agregado">Added the number</string>
+
+    <string-array name="Opciones">
+        <item>Major to Minor</item>
+        <item>Minor a Major</item>
+    </string-array>
+</resources>
