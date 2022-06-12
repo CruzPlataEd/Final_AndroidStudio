@@ -21,11 +21,11 @@ class MainActivity2 : AppCompatActivity() {
 
         val numeros = ArrayList<Numeros>()
         val rango = datos?.size
-        var aux = 0
+        var aux: Int
 
         if(eleccion==0) {
             for (x in 0 until rango!!) {
-                for (y in 0 until rango!!) {
+                for (y in 0 until rango) {
                     if (datos[x] > datos[y]) {
                         aux = datos[y]
                         datos[y] = datos[x]
@@ -36,7 +36,7 @@ class MainActivity2 : AppCompatActivity() {
         }
         if(eleccion==1) {
             for (x in 0 until rango!!) {
-                for (y in 0 until rango!!) {
+                for (y in 0 until rango) {
                     if (datos[x] < datos[y]) {
                         aux = datos[y]
                         datos[y] = datos[x]

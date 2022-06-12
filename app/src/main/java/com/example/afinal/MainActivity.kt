@@ -5,9 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import com.example.afinal.databinding.ActivityMainBinding
-import com.example.afinal.model.Numeros
-import kotlin.properties.Delegates
 
 class MainActivity : AppCompatActivity() {
 
@@ -54,9 +51,9 @@ class MainActivity : AppCompatActivity() {
     fun ordenar(view: View) {
         etNumero = findViewById(R.id.etNumero)
 
-        when(view?.id){
+        when(view.id){
             R.id.buttonAgregar->{
-                if(!etNumero.text.toString().isEmpty()){
+                if(etNumero.text.toString().isNotEmpty()){
                     val numero = etNumero.text.toString().toInt()
                     datos.add(numero)
                     Toast.makeText(this,getString(R.string.agregado),Toast.LENGTH_SHORT).show()

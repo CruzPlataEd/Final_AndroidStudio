@@ -22,4 +22,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.842" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        android:src="@drawable/reloj_arena"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259"></pl.droidsonroids.gif.GifImageView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
