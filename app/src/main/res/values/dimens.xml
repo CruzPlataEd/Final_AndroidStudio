@@ -3,4 +3,5 @@
     <dimen name="tamanio_boton">20sp</dimen>
     <dimen name="tamanio_texto2">25sp</dimen>
     <dimen name="tamanio_text">30sp</dimen>
+    <dimen name="tamanioTitulo">35sp</dimen>
 </resources>

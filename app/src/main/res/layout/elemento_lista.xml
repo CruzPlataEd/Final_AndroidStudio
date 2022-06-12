@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="120dp" />
+        app:layout_constraintGuide_end="291dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -52,7 +52,7 @@
         android:id="@+id/tvNum"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:gravity="fill_vertical"
+        android:gravity="center"
         android:textSize="@dimen/tamanio_boton"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
